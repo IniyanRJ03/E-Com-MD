@@ -1,0 +1,83 @@
+name: nsbm_store
+description: "A new Flutter project."
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+# Packages
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #Utility Packages
+  http: ^1.1.0
+  intl: ^0.19.0
+  logger: ^2.1.0
+  lottie: ^3.1.0
+  url_launcher: ^6.2.5
+  connectivity_plus: ^5.0.1
+  carousel_slider: ^4.2.1
+  flutter_native_splash: ^2.3.11
+  smooth_page_indicator: ^1.1.0
+
+  
+  #Icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.6
+
+  #State management
+  get: ^4.6.6
+  get_storage: ^2.1.1
+
+  #Firebase
+  firebase_core: ^2.29.0
+  firebase_auth: ^4.19.1
+  cloud_firestore: ^4.16.1
+
+  #Product Specific
+
+#Dev Packages
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/img/
+    - assets/img/logos/
+    - assets/img/social/
+    - assets/img/onboarding/
+    - assets/img/other/
+    - assets/img/banners/
+    - assets/img/products/
+    - assets/icons/
+    - assets/icons/categories/
+    - assets/fonts/
+    - assets/animations/
+  
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 800
